@@ -224,10 +224,10 @@
 						event.preventDefault();
 						emailjs.sendForm("default_service", "contact_form", this)
 						.then(function(response) {
-   						console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+							console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
 							alert("Your message has been successfully delivered!")
 						}, function(err) {
-   						console.log("FAILED. error=", err);
+							console.log("FAILED. error=", err);
 							alert("An error occurred!\r\nEmail us your message (and preferably this error) instead.\r\n\r\nERROR: " + err.name + "\r\nERROR MESSAGE: " + err.message)
 						});
 					});
