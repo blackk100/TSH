@@ -105,6 +105,34 @@ section .mbr-background-video, section .mbr-background-video-preview {
 	background-color: #000000;
 }
 
+.fb {
+	color: #3B5998;
+}
+
+.insta {
+	color: #222222;
+}
+
+.yt {
+	color: #ff0000;
+}
+
+.tweet {
+	color: #1DA1F2;
+}
+
+.git {
+	color: #333333;
+}
+
+.code {
+	color: #39ff14;
+}
+
+.coffee {
+	color: #a67b5b;
+}
+
 /*! Text-aligns */
 
 .align-left {
@@ -544,9 +572,9 @@ nav .mbr-section-btn {
 
 .engine {
 	position: absolute;
-	text-indent: -2400px;
+	text-indent: -4096px;
 	text-align: center;
 	padding: 0;
 	top: 0;
-	left: -2400px;
+	left: -4096px;
 }
