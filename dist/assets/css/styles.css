@@ -117,16 +117,16 @@ section .mbr-background-video, section .mbr-background-video-preview {
 	color: #ff0000;
 }
 
+.www {
+	color: #3277BC;
+}
+
 .tweet {
 	color: #1DA1F2;
 }
 
 .git {
 	color: #333333;
-}
-
-.code {
-	color: #39ff14;
 }
 
 .coffee {
