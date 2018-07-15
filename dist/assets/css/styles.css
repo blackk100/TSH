@@ -106,7 +106,7 @@ section .mbr-background-video, section .mbr-background-video-preview {
 }
 
 .fb {
-	color: #3B5998;
+	color: #3b5998;
 }
 
 .insta {
@@ -118,11 +118,20 @@ section .mbr-background-video, section .mbr-background-video-preview {
 }
 
 .www {
-	color: #3277BC;
+	color: #3a82e4;
+	/*color: #3277bc;*/
+}
+
+.snap {
+	color: #fffc00;
+}
+
+.wiki {
+	color: #000000;
 }
 
 .tweet {
-	color: #1DA1F2;
+	color: #1da1f2;
 }
 
 .git {
@@ -130,7 +139,7 @@ section .mbr-background-video, section .mbr-background-video-preview {
 }
 
 .coffee {
-	color: #a67b5b;
+	color: #b67b5b;
 }
 
 /*! Text-aligns */

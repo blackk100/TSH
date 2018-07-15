@@ -18,6 +18,7 @@
 			<link rel="stylesheet" type="text/css" href="../assets/css/animate.min.css">
 			<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
 			<link rel="stylesheet" type="text/css" href="../assets/css/mbr-additional.css">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<!-- JavaScript -->
 			<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
 			<script type="text/javascript" src="../assets/js/tether.min.js"></script>
@@ -28,12 +29,12 @@
 			<script type="text/javascript" src="../assets/js/smooth-scroll.js"></script>
 			<script type="text/javascript" src="../assets/js/jquery.touch-swipe.min.js"></script>
 			<script type="text/javascript" src="../assets/js/jquery.viewportchecker.js"></script>
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+			<script type="text/javascript" src="../assets/js/scroll.js"></script>
 		<!-- Other Stuff -->
 			<title>Team | TSH</title>
 			<link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
 	</head>
-	<body>
+	<body onload="scrollWin();">
 		<!-- Navbar -->
 			<section class="menu cid-qT7P2YE4PW" once="menu" id="menu2-k">
 				<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
@@ -107,7 +108,7 @@
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/team-president.jpg" alt="team-pres" title="Yashmitha L Sadasivuni">
+											<img src="../assets/img/team/team-president.jpg" alt="team-pres" title="Yashmitha L Sadasivuni">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -120,10 +121,13 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 													<a href="https://www.instagram.com/yashmitha14/" target="_blank">
-														<i class="fab fa-instagram fa-2x insta"></i>
+														<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+														  <i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+														  <i class="fab fa-instagram fa-stack-1x insta"></i>
+														</span>
 													</a>
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 1 -->
 						</div>
@@ -134,7 +138,7 @@
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-treasurer" title="Anusha R Kallapur">
+											<img src="../assets/img/team/baseline-person-24px.svg" alt="team-treasurer" title="Anusha R Kallapur">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -147,17 +151,20 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 													<a href="https://www.anushakallapur.com/" target="_blank">
-														<i class="fab fa-edge fa-2x www"></i>
+														<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+														  <i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+														  <i class="fab fa-edge fa-stack-1x www"></i>
+														</span>
 													</a>
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 2 -->
 							<!-- Person 3 -->
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/team-pr.jpg" alt="team-pr" title="Dhatri Devireddy">
+											<img src="../assets/img/team/team-pr.jpg" alt="team-pr" title="Dhatri Devireddy">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -170,17 +177,20 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 													<a href="https://www.instagram.com/dhatri_d13/" target="_blank">
-														<i class="fab fa-instagram fa-2x insta"></i>
+														<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+														  <i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+															<i class="fab fa-instagram fa-stack-1x insta"></i>
+														</span>
 													</a>
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 3 -->
 							<!-- Person 4 -->
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/team-internal.jpg" alt="team-internal" title="Ishika Gupta">
+											<img src="../assets/img/team/team-internal.jpg" alt="team-internal" title="Ishika Gupta">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -193,7 +203,7 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 4 -->
 						</div>
@@ -204,7 +214,7 @@
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-event1" title="Hiral Shah">
+											<img src="../assets/img/team/baseline-person-24px.svg" alt="team-event1" title="Hiral Shah">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -217,14 +227,14 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 5 -->
 							<!-- Person 6 -->
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-event2" title="Saanya Gupta">
+											<img src="../assets/img/team/team-event2-volunteer4.jpg" alt="team-event2-volunteer4" title="Saanya Gupta">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -232,19 +242,19 @@
 												<p class="mbr-fonts-style display-5">Saanya Gupta</p>
 											</div>
 											<div class="item-role px-2">
-												<p>Event Management</p>
+												<p>Event Management<br />Volunteer Management</p>
 											</div>
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 6 -->
 							<!-- Person 7 -->
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-event3-arts1" title="Yasaswini Potluri">
+											<img src="../assets/img/team/team-event3-arts1.jpg" alt="team-event3-arts1" title="Yasaswini Potluri">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -256,8 +266,20 @@
 											</div>
 											<!-- Social Links -->
 												<div class="item-social pt-2">
+													<a href="https://www.instagram.com/yasaswini_potluri/" target="_blank">
+														<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+															<i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+															<i class="fab fa-instagram fa-stack-1x insta"></i>
+														</span>
+													</a>
+													<a href="https://www.snapchat.com/add/ypotluri" target="_blank">
+														<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+															<i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+															<i class="fab fa-snapchat fa-stack-1x snap"></i>
+														</span>
+													</a>
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 7 -->
 						</div>
@@ -268,51 +290,7 @@
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-arts2" title="Mani Chandra Prabha Hota">
-										</div>
-									<!-- Details -->
-										<div class="item-caption py-3">
-											<div class="item-name px-2">
-												<p class="mbr-fonts-style display-5">Mani Chandra Prabha Hota</p>
-											</div>
-											<div class="item-role px-2">
-												<p>Arts & Media</p>
-											</div>
-											<!-- Social Links -->
-												<div class="item-social pt-2">
-												</div>
-									</div>
-								</div>
-							<!-- /Person 8 -->
-							<!-- Person 9 -->
-								<div class="team-item col-lg-3 col-md-6">
-									<!-- Person Image -->
-										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-arts3" title="Poojitaa Reddy">
-										</div>
-									<!-- Details -->
-										<div class="item-caption py-3">
-											<div class="item-name px-2">
-												<p class="mbr-fonts-style display-5">Poojitaa Reddy</p>
-											</div>
-											<div class="item-role px-2">
-												<p>Arts & Media</p>
-											</div>
-											<!-- Social Links -->
-												<div class="item-social pt-2">
-												</div>
-									</div>
-								</div>
-							<!-- /Person 9 -->
-						</div>
-					<!-- /Row 4 -->
-					<!-- Row 5 -->
-						<div class="row media-row">
-							<!-- Person 10 -->
-								<div class="team-item col-lg-3 col-md-6">
-									<!-- Person Image -->
-										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-volunteer1" title="Tushara Datla">
+											<img src="../assets/img/team/baseline-person-24px.svg" alt="team-volunteer1" title="Tushara Datla">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -325,14 +303,14 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 												</div>
-									</div>
+										</div>
 								</div>
-							<!-- /Person 10 -->
-							<!-- Person 11 -->
+							<!-- /Person 8 -->
+							<!-- Person 9 -->
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-volunteer2" title="Spoorthi Yadagiri">
+											<img src="../assets/img/team/team-volunteer2.jpg" alt="team-volunteer2" title="Spoorthi Yadagiri">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -344,15 +322,21 @@
 											</div>
 											<!-- Social Links -->
 												<div class="item-social pt-2">
+													<a href="https://en.m.wikipedia.org/wiki/Spoorthi_Yadagiri" target="_blank">
+														<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+															<i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+															<i class="fab fa-wikipedia-w fa-stack-1x wiki"></i>
+														</span>
+													</a>
 												</div>
-									</div>
+										</div>
 								</div>
-							<!-- /Person 11 -->
-							<!-- Person 12 -->
+							<!-- /Person 9 -->
+							<!-- Person 10 -->
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/team-volunteer3.jpg" alt="team-volunteer3" title="Mahima Sriram">
+											<img src="../assets/img/team/team-volunteer3.jpg" alt="team-volunteer3" title="Mahima Sriram">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -366,10 +350,58 @@
 												<div class="item-social pt-2">
 													<div class="item-social pt-2">
 														<a href="https://www.instagram.com/mahimasriram/" target="_blank">
-															<i class="fab fa-instagram fa-2x insta"></i>
+															<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+																<i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+																<i class="fab fa-instagram fa-stack-1x insta"></i>
+															</span>
 														</a>
+													</div>
 												</div>
-									</div>
+										</div>
+								</div>
+							<!-- /Person 10 -->
+						</div>
+					<!-- /Row 4 -->
+					<!-- Row 5 -->
+						<div class="row media-row">
+							<!-- Person 11 -->
+								<div class="team-item col-lg-3 col-md-6">
+									<!-- Person Image -->
+										<div class="item-image">
+											<img src="../assets/img/team/baseline-person-24px.svg" alt="team-arts2" title="Mani Chandra Prabha Hota">
+										</div>
+									<!-- Details -->
+										<div class="item-caption py-3">
+											<div class="item-name px-2">
+												<p class="mbr-fonts-style display-5">Mani Chandra Prabha Hota</p>
+											</div>
+											<div class="item-role px-2">
+												<p>Arts & Media</p>
+											</div>
+											<!-- Social Links -->
+												<div class="item-social pt-2">
+												</div>
+										</div>
+								</div>
+							<!-- /Person 11 -->
+							<!-- Person 12 -->
+								<div class="team-item col-lg-3 col-md-6">
+									<!-- Person Image -->
+										<div class="item-image">
+											<img src="../assets/img/team/baseline-person-24px.svg" alt="team-arts3" title="Poojitaa Reddy">
+										</div>
+									<!-- Details -->
+										<div class="item-caption py-3">
+											<div class="item-name px-2">
+												<p class="mbr-fonts-style display-5">Poojitaa Reddy</p>
+											</div>
+											<div class="item-role px-2">
+												<p>Arts & Media</p>
+											</div>
+											<!-- Social Links -->
+												<div class="item-social pt-2">
+												</div>
+										</div>
 								</div>
 							<!-- /Person 12 -->
 						</div>
@@ -380,7 +412,7 @@
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/team-content1.jpg" alt="team-content1" title="Pratyusha Vellala">
+											<img src="../assets/img/team/team-content1.jpg" alt="team-content1" title="Pratyusha Vellala">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -393,17 +425,20 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 													<a href="https://www.instagram.com/ptushathereader/" target="_blank">
-														<i class="fab fa-instagram fa-2x insta"></i>
+														<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+															<i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+															<i class="fab fa-instagram fa-stack-1x insta"></i>
+														</span>
 													</a>
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 13 -->
 							<!-- Person 14 -->
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-content2" title="Ratnamegha Lingamsetty">
+											<img src="../assets/img/team/baseline-person-24px.svg" alt="team-content2" title="Ratnamegha Lingamsetty">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -416,7 +451,7 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 14 -->
 						</div>
@@ -427,7 +462,7 @@
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-recruiter-tech1" title="Abijith Pradeep">
+											<img src="../assets/img/team/baseline-person-24px.svg" alt="team-recruiter-tech1" title="Abijith Pradeep">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -440,14 +475,14 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 15 -->
 							<!-- Person 16 -->
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/team-tech2.jpg" alt="team-tech2" title="Hackerbear. Also looking for freelance work.">
+											<img src="../assets/img/team/team-tech2.jpg" alt="team-tech2" title="Hackerbear. Also looking for freelance work.">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -460,23 +495,32 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 													<a href="https://www.facebook.com/blackk100" target="_blank">
-														<i class="fab fa-facebook fa-2x fb"></i>
-													</a>&nbsp;&nbsp;
+														<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+															<i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+															<i class="fab fa-facebook fa-stack-1x fb"></i>
+														</span>
+													</a>
 													<a href="https://twitter.com/blackk1000" target="_blank">
-														<i class="fab fa-twitter fa-2x tweet"></i>
-													</a>&nbsp;&nbsp;
+														<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+															<i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+															<i class="fab fa-twitter fa-stack-1x tweet"></i>
+														</span>
+													</a>
 													<a href="http://bit.ly/tsh-dev" target="_blank">
-														<i class="fab fa-github fa-2x git"></i>
+														<span class="fa-stack fa-2x fa-border" onmouseout="outCol(this);" onmouseover="overCol(this);">
+															<i class="fas fa-square fa-stack-2x" style="color: #dddddd;"></i>
+															<i class="fab fa-github fa-stack-1x git"></i>
+														</span>
 													</a>
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 16 -->
 							<!-- Person 17 -->
 								<div class="team-item col-lg-3 col-md-6">
 									<!-- Person Image -->
 										<div class="item-image">
-											<img src="../assets/img/baseline-person-24px.svg" alt="team-tech3" title="Rohan Rudraraju">
+											<img src="../assets/img/team/baseline-person-24px.svg" alt="team-tech3" title="Rohan Rudraraju">
 										</div>
 									<!-- Details -->
 										<div class="item-caption py-3">
@@ -489,7 +533,7 @@
 											<!-- Social Links -->
 												<div class="item-social pt-2">
 												</div>
-									</div>
+										</div>
 								</div>
 							<!-- /Person 17 -->
 						</div>
@@ -566,6 +610,16 @@
 			<input name="animation" type="hidden">
 		<!-- More JavaScript -->
 			<!-- Requires the rest of the page to load first to run properly -->
-			<script src="../assets/js/script.js"></script>
+			<script type="text/javascript" src="../assets/js/script.js"></script>
+			<script type="text/javascript">
+				function overCol(ele) {
+					var child = ele.firstElementChild;
+					child.style.color = "#cccccc";
+				}
+				function outCol(ele) {
+					var child = ele.firstElementChild;
+					child.style.color = "#dddddd";
+				}
+			</script>
 	</body>
 </html>
