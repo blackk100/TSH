@@ -14,7 +14,7 @@ Hosted at Firebase: [TSH | Home](http://bit.ly/tsh-web)
 
        $ npm install -g firebase-tools
 
-3. [Clone](https://github.com/blackk100/TSH.git) the repository using [git](https://desktop.github.com/) (you can't just directly [download](https://github.com/blackk100/TSH/archive/master.zip) it as you'll have to upload your changes back here, i.e. to GitHub).
+3. [Fork](https://github.com/blackk100/TSH/fork) the repository using [git](https://desktop.github.com/) (you can't just directly [download](https://github.com/blackk100/TSH/archive/master.zip) it as you'll have to upload your changes back here, i.e. to GitHub).
 4. Make all changes to the website under ```/dist```.
 5. Change the current working directory of the terminal to that of the cloned repository.
 6. Test your changes locally:
@@ -25,3 +25,5 @@ Hosted at Firebase: [TSH | Home](http://bit.ly/tsh-web)
 
        $ firebase login
        $ firebase deploy
+
+8. [Create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to merge changes into this repository.
