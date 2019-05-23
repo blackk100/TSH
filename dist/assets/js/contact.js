@@ -1,5 +1,5 @@
 (function () {
-  emailjs.init('user_gWyGwhhTYkdkYmjhj52AZ');
+  emailjs.init('user_gWyGwhhTYkdkYmjhj52AZ')
 })()
 window.onload = function () {
   document.getElementById('contact-form').addEventListener('submit', function (event) {

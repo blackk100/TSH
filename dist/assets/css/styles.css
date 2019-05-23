@@ -106,7 +106,7 @@ section .mbr-background-video, section .mbr-background-video-preview {
 }
 
 .fb {
-	color: #3b5998;
+	color: #1877f2;
 }
 
 .insta {
@@ -134,7 +134,11 @@ section .mbr-background-video, section .mbr-background-video-preview {
 	color: #1da1f2;
 }
 
-.git {
+.love {
+	color: #ff1493
+}
+
+.code {
 	color: #333333;
 }
 
@@ -577,7 +581,7 @@ nav .mbr-section-btn {
 	}
 }
 
-/*# sourceMappingURL=style.css.map */
+/*Hider - verify if no longer needed*/
 
 .engine {
 	position: absolute;
