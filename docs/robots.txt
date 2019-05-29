@@ -1,5 +1,5 @@
 User-agent: *
 Crawl-delay: 5
 Disallow: /cgi-bin/
-Disallow: /assets/
+Disallow: ./assets/
 Sitemap: https://www.tsh-hyd.web.app/sitemap.xml
