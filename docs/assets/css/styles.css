@@ -1,15 +1,78 @@
+/* Bootstrap stuff */
 .jumbotron {
-	height: 100vh;
+	background: url('../img/hands.jpg');
+	position: 'absolute';
+	top: 0px;
+}
+
+.btn {
+	border-radius: 50px;
+	border-width: 3px;
+	width: 150px;
+	font-weight: 550px;
+}
+
+@media (max-width: 575.9px) {
+	.btn {
+		width: auto;
+	}
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0);
+	border-color: #149DCC;
+}
+
+/* Jarallax stuff */
+[id*="jarallax-container-"] > div {
+	background-color: rgba(0, 0, 0, 0.25);
+	background-blend-mode: multiply;
+}
+
+/* Custom Classes and IDs */
+.line {
+	background-color: #149DCC;
+	color: #149DCC;
+	align: center;
+	height: 2px;
+	margin: 0 auto;
+	width: 33%
+}
+
+#home-jumbotron {
 	background-image: url("../img/hands.jpg");
-	background-position: "left top";
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-clip: no-clip;
+}
+
+#home-buttons {
+	background-image: url('../img/home.jpg');
+	height: 250px;
+}
+
+@media (min-width: 576px) {
+	#home-buttons  >  div {
+		width: 60vw;
+	}
+}
+
+#home-social {
+	height: 250px;
+	background-image: linear-gradient(#149DCC, #FFFFFF);
+}
+
+#scroll-to-top {
+	position: fixed;
+	bottom: 10vh;
+	right: 10vw;
+}
+
+#scroll-to-top > i {
+	color: rgba(0, 0, 0, 0.5);
 }
 
 /* Colours */
 .fb {
-	color: #1877f2;
+	color: #1877F2;
 }
 
 .insta {
@@ -17,16 +80,17 @@
 }
 
 .yt {
-	color: #ff0000;
+	color: #FF0000;
 }
 
 .www {
-	color: #3a82e4;
-	/*color: #3277bc;*/
+	color: #3A82E4;
+	/* Alternative:
+	color: #3277BC;*/
 }
 
 .snap {
-	color: #fffc00;
+	color: #FFFC00;
 }
 
 .wiki {
@@ -34,11 +98,11 @@
 }
 
 .tweet {
-	color: #1da1f2;
+	color: #1DA1F2;
 }
 
 .love {
-	color: #ff1493
+	color: #FF1493
 }
 
 .code {
@@ -46,5 +110,5 @@
 }
 
 .coffee {
-	color: #b67b5b;
+	color: #B67B5B;
 }
