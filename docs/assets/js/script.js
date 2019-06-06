@@ -37,12 +37,14 @@ $(document).ready(function () {
   })
 
   // Dropdowns open when hovered upon.
-  $('.dropdown').hover(function () {
-    $(this).addClass('show')
-    $(this).find('.dropdown-menu').addClass('show')
-  }, function () {
-    $(this).removeClass('show')
-    $(this).find('.dropdown-menu').removeClass('show')
+  $('.dropdown').each(function () {
+    $(this).hover(function () {
+      $(this).addClass('show')
+      $(this).find('.dropdown-menu').addClass('show')
+    }, function () {
+      $(this).removeClass('show')
+      $(this).find('.dropdown-menu').removeClass('show')
+    })
   })
 
   /* All buttons/elements containing icons that are supposed to have a "fade" animation.
@@ -62,7 +64,7 @@ $(document).ready(function () {
     })
   })
 
-	// Colour fading for the buttons. More may be added later.
+  // Colour fading for the buttons. More may be added later.
   $('.btn-primary').each(function () {
     $(this).hover(function () {
       $(this).animate({
