@@ -1,8 +1,21 @@
+/* HTML tags */
+body {
+	color: #FFFFFF;
+}
+
+footer {
+	color: #212529;
+}
+
 /* Bootstrap stuff */
 .jumbotron {
-	background: url('../img/hands.jpg');
 	position: 'absolute';
 	top: 0px;
+	color: #FFFFFF;
+}
+
+.lead {
+	font-weight: 400;
 }
 
 .btn {
@@ -43,7 +56,7 @@
 	align: center;
 	height: 2px;
 	margin: 0 auto;
-	width: 33%
+	width: 33%;
 }
 
 #scroll-to-top {
@@ -52,8 +65,12 @@
 	right: 10vw;
 }
 
-#scroll-to-top > i {
-	color: rgba(0, 0, 0, 0.5);
+i.fa-circle {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+#scroll-to-top > i.fa-arrow-up {
+	color: #FFFFFF;
 }
 
 #home-jumbotron {
@@ -81,49 +98,58 @@
 }
 
 #contact-form {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.125), #FFFFFF);
+	background-image: linear-gradient(#E8E8E8, #FFFFFF);
+	color: #212529;
 }
 
-/* Colours */
-.fb {
+/* Fontawesome Colours */
+.fa-circle {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.fa-arrow-down, .fa-arrow-up {
+	color: #FFFFFF;
+}
+
+.fa-facebook {
 	color: #1877F2;
 }
 
-.insta {
+.fa-instagram {
 	color: #222222;
 }
 
-.yt {
+.fa-youtube {
 	color: #FF0000;
 }
 
-.www {
+.fa-heart {
+	color: #FF1493
+}
+
+.fa-code, .fa-github {
+	color: #333333;
+}
+
+.fa-coffee {
+	color: #B67B5B;
+}
+
+.fa-edge {
 	color: #3A82E4;
 	/* Alternative:
 	 * color: #3277BC;
 	 */
 }
 
-.snap {
+.fa-snapchat {
 	color: #FFFC00;
 }
 
-.wiki {
+.fa-wikipedia {
 	color: #000000;
 }
 
-.tweet {
+.fa-twitter {
 	color: #1DA1F2;
-}
-
-.love {
-	color: #FF1493
-}
-
-.code {
-	color: #333333;
-}
-
-.coffee {
-	color: #B67B5B;
 }
