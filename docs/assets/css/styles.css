@@ -21,7 +21,7 @@ footer {
 .btn {
 	border-radius: 50px;
 	border-width: 3px;
-	width: 150px;
+	width: 200px;
 	font-weight: 550px;
 }
 
@@ -91,6 +91,15 @@ i.fa-circle {
 #home-social {
 	height: 250px;
 	background-image: linear-gradient(#149DCC, #FFFFFF);
+}
+
+#volunteer-jumbotron {
+	background-image: url("../img/volunteer.jpg");
+}
+
+#volunteer-buttons {
+	background-image: url('../img/volunteerhands.png');
+	height: 300px;
 }
 
 #contact-jumbotron {
