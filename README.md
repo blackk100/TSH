@@ -2,7 +2,7 @@
 
 Source code of the website of The Samariteens of Hyderabad.
 
-Hosted at Firebase: [TSH | Home](http://bit.ly/tsh-web)
+Hosted at Firebase: [TSH | Home](https://tshhyd.page.link/web)
 
 
 ## License
@@ -14,16 +14,15 @@ Hosted at Firebase: [TSH | Home](http://bit.ly/tsh-web)
 
        $ npm install -g firebase-tools
 
-3. [Fork](https://github.com/blackk100/TSH/fork) the repository using [git](https://desktop.github.com/) (you can't just directly [download](https://github.com/blackk100/TSH/archive/master.zip) it as you'll have to upload your changes back here, i.e. to GitHub).
+3. [Fork](https://github.com/blackk100/TSH/fork) the repository using [git](https://desktop.github.com/).
 4. Make all changes to the website under ```/docs/```.
 5. Change the current working directory of the terminal to that of the cloned repository.
 6. Test your changes locally:
 
        $ firebase serve
 
-7. Login into Firebase CLI (with the correct account) and deploy the changes:
+7. [Create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to merge changes into this repository.
+8. Login into Firebase CLI (with the correct account) and deploy the changes:
 
        $ firebase login
        $ firebase deploy
-
-8. [Create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) to merge changes into this repository.
