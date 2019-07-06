@@ -1,7 +1,7 @@
 // Script that is run for the contact form
 $(document).ready(function () {
   // Colour fading for the buttons. More may be added later.
-  $('.btn-form').each(function () {
+  $('.btn-dark').each(function () {
     $(this).hover(function () {
       $(this).animate({
         color: '#FFFFFF',

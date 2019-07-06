@@ -65,7 +65,7 @@ $(document).ready(function () {
   })
 
   // Colour fading for the buttons. More may be added later.
-  $('.btn-primary').each(function () {
+  $('.btn-main').each(function () {
     $(this).hover(function () {
       $(this).animate({
         backgroundColor: '#149DCC'
