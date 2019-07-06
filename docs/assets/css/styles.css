@@ -61,6 +61,18 @@ body {
 	background-image: linear-gradient(#D1D1D1, #FFFFFF);
 }
 
+.btn-tab, .btn-tab:hover, .btn-tab:focus, .btn-tab:active {
+	color: #149DCC;
+	background-color: rgba(0, 0, 0, 0);
+	border-color: #149DCC;
+}
+
+.btn-tab.active {
+	color: #FFFFFF;
+	background-color: #149DCC;
+	border-color: #149DCC;
+}
+
 .btn-dark, .btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active {
 	color: #149DCC;
 	background-color: rgba(0, 0, 0, 0);
@@ -114,6 +126,10 @@ body {
 	background-image: url("../img/volunteerhands.png");
 	height: 300px;
 	font-size: 1.1em;
+}
+
+#sponsor-jumbotron {
+	background-image: url("../img/sponsor.jpg");
 }
 
 #contact-jumbotron {

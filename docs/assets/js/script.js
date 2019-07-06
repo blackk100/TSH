@@ -77,6 +77,29 @@ $(document).ready(function () {
     })
   })
 
+  $('.btn-tab').each(function () {
+    $(this).on('hidden.bs.tab', function (event) {
+      $(this).animate({
+        color: '#149DCC',
+        backgroundColor: 'rgba(0, 0, 0, 0)'
+      }, 'fast')
+    })
+
+    $(this).hover(function () {
+      $(this).animate({
+        color: '#FFFFFF',
+        backgroundColor: '#149DCC'
+      }, 'fast')
+    }, function () {
+      if (!($(this).hasClass('active'))) {
+        $(this).animate({
+          color: '#149DCC',
+          backgroundColor: 'rgba(0, 0, 0, 0)'
+        }, 'fast')
+      }
+    })
+  })
+
   $('.btn-dark').each(function () {
     $(this).hover(function () {
       $(this).animate({
