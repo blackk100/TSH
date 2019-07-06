@@ -5,7 +5,6 @@ body {
 
 /* Bootstrap stuff */
 .jumbotron {
-	position: 'absolute';
 	top: 0px;
 	color: #FFFFFF;
 }
@@ -27,18 +26,6 @@ body {
 	}
 }
 
-.btn-main, .btn-main:hover, .btn-main:focus, .btn-main:active, .btn-main.active {
-	color: #FFFFFF;
-	background-color: rgba(0, 0, 0, 0);
-	border-color: #149DCC;
-}
-
-.btn-dark, .btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active {
-	color: #149DCC;
-	background-color: rgba(0, 0, 0, 0);
-	border-color: #149DCC;
-}
-
 /* Jarallax stuff */
 [id*="jarallax-container-"] > div {
 	background-color: rgba(0, 0, 0, 0.25);
@@ -51,6 +38,10 @@ body {
 }
 
 /* Custom Classes and IDs */
+.scroll-below {
+	margin-bottom: 5vh;
+}
+
 .line {
 	background-color: #149DCC;
 	color: #149DCC;
@@ -60,18 +51,35 @@ body {
 	width: 33%;
 }
 
-.scroll-below {
-	margin-bottom: 5vh;
+.btn-main, .btn-main:hover, .btn-main:focus, .btn-main:active, .btn-main.active {
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0);
+	border-color: #149DCC;
+}
+
+.page-gradient {
+	background-image: linear-gradient(#D1D1D1, #FFFFFF);
+}
+
+.btn-dark, .btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active {
+	color: #149DCC;
+	background-color: rgba(0, 0, 0, 0);
+	border-color: #149DCC;
+}
+
+.carousel-img {
+	max-height: 125px;
+	max-width: 80vw;
+	height: 125px;
+	width: auto;
+	object-fit: contain;
+	object-position: center;
 }
 
 #scroll-to-top {
 	position: fixed;
 	bottom: 10vh;
 	right: 10vw;
-}
-
-i.fa-circle {
-	color: rgba(0, 0, 0, 0.75);
 }
 
 #scroll-to-top > i.fa-arrow-up {
@@ -83,12 +91,12 @@ i.fa-circle {
 }
 
 #home-buttons {
-	background-image: url('../img/home.jpg');
+	background-image: url("../img/home.jpg");
 	height: 300px;
 }
 
 @media (min-width: 576px) {
-	#home-buttons  >  div {
+	#home-buttons > div {
 		width: 60vw;
 	}
 }
@@ -103,7 +111,7 @@ i.fa-circle {
 }
 
 #volunteer-buttons {
-	background-image: url('../img/volunteerhands.png');
+	background-image: url("../img/volunteerhands.png");
 	height: 300px;
 	font-size: 1.1em;
 }
@@ -112,17 +120,21 @@ i.fa-circle {
 	background-image: url("../img/contact.jpg");
 }
 
-#contact-form {
-	background-image: linear-gradient(#E8E8E8, #FFFFFF);
+/* Fontawesome Colours */
+i.fa-circle {
+	color: rgba(0, 0, 0, 0.75);
 }
 
-/* Fontawesome Colours */
 .fa-circle {
 	color: rgba(0, 0, 0, 0.75);
 }
 
 .fa-arrow-down, .fa-arrow-up {
 	color: #FFFFFF;
+}
+
+.fa-arrow-left, .fa-arrow-right {
+	color: #000000;
 }
 
 .fa-facebook {

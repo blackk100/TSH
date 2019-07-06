@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://tsh-hyd.web.app/</loc>
+	<url>
+		<loc>https://tsh-hyd.web.app/</loc>
 		<priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.web.app/team/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.web.app/team/</loc>
 		<priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.web.app/apply/volunteer/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.web.app/apply/volunteer/</loc>
 		<priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.web.app/apply/sponsor/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.web.app/apply/sponsor/</loc>
 		<priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.web.app/contact/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.web.app/contact/</loc>
 		<priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.firebaseapp.com/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.firebaseapp.com/</loc>
 		<priority>0.60</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.firebaseapp.com/apply/volunteer/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.firebaseapp.com/apply/volunteer/</loc>
 		<priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.firebaseapp.com/team/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.firebaseapp.com/team/</loc>
 		<priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.firebaseapp.com/apply/sponsor/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.firebaseapp.com/apply/sponsor/</loc>
 		<priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.firebaseapp.com/contact/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.firebaseapp.com/contact/</loc>
 		<priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.github.io/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.github.io/</loc>
 		<priority>0.30</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.github.io/apply/volunteer/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.github.io/apply/volunteer/</loc>
 		<priority>0.10</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.github.io/team/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.github.io/team/</loc>
 		<priority>0.10</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.github.io/apply/sponsor/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.github.io/apply/sponsor/</loc>
 		<priority>0.10</priority>
-  </url>
-  <url>
-    <loc>https://tsh-hyd.github.io/contact/</loc>
+	</url>
+	<url>
+		<loc>https://tsh-hyd.github.io/contact/</loc>
 		<priority>0.10</priority>
-  </url>
+	</url>
 </urlset>
