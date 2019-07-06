@@ -1,20 +1,5 @@
 // Script that is run for the contact form
 $(document).ready(function () {
-  // Colour fading for the buttons. More may be added later.
-  $('.btn-dark').each(function () {
-    $(this).hover(function () {
-      $(this).animate({
-        color: '#FFFFFF',
-        backgroundColor: '#149DCC'
-      }, 'fast')
-    }, function () {
-      $(this).animate({
-        color: '#149DCC',
-        backgroundColor: 'rgba(0, 0, 0, 0)'
-      }, 'fast')
-    })
-  })
-
   vex.defaultOptions.className = 'vex-theme-default' // Initialises vex.js (for fancy alerts)
 
   emailjs.init('user_gWyGwhhTYkdkYmjhj52AZ') // Initialises the email.js client

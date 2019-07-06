@@ -77,6 +77,20 @@ $(document).ready(function () {
     })
   })
 
+  $('.btn-dark').each(function () {
+    $(this).hover(function () {
+      $(this).animate({
+        color: '#FFFFFF',
+        backgroundColor: '#149DCC'
+      }, 'fast')
+    }, function () {
+      $(this).animate({
+        color: '#149DCC',
+        backgroundColor: 'rgba(0, 0, 0, 0)'
+      }, 'fast')
+    })
+  })
+
   // Animated scrolling to the next "main" element.
   $('.scroll-below').click(function (event) {
     event.preventDefault() // Prevent default anchor click behavior.

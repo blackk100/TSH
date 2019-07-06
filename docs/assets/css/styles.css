@@ -1,10 +1,6 @@
 /* HTML tags */
 body {
-	color: #FFFFFF;
-}
-
-footer {
-	color: #212529;
+	color: #2E2E2E;
 }
 
 /* Bootstrap stuff */
@@ -118,7 +114,6 @@ i.fa-circle {
 
 #contact-form {
 	background-image: linear-gradient(#E8E8E8, #FFFFFF);
-	color: #212529;
 }
 
 /* Fontawesome Colours */
