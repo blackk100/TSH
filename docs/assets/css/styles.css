@@ -1,6 +1,12 @@
 /* HTML tags */
 body {
 	color: #2E2E2E;
+	background-image: linear-gradient(#E8E8E8, #FFFFFF);
+}
+
+footer {
+	margin: 0 0 0 0;
+	background-color: #FFFFFF;
 }
 
 /* Bootstrap stuff */
@@ -51,11 +57,6 @@ body {
 }
 
 /* Custom Classes and IDs */
-
-.page-gradient {
-	background-image: linear-gradient(#D1D1D1, #FFFFFF);
-}
-
 .scroll-below {
 	margin-bottom: 5vh;
 }

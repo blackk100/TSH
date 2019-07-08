@@ -54,7 +54,7 @@ $(document).ready(function () {
    */
   $('.fadey-button').each(function () {
     $(this).find('i').each(function () {
-      $(this).fadeTo(1, 0.5)
+      $(this).fadeTo(0, 0.5)
 
       $(this).hover(function () {
         $(this).fadeTo('fast', 1)
@@ -64,6 +64,7 @@ $(document).ready(function () {
     })
   })
 
+  // Social Media icons in the team page have a fadey-button like animation.
   $('.social-links > a > span').each(function () {
     $(this).find('i:first').fadeTo(0, 0.5)
     $(this).hover(function () {
@@ -73,7 +74,7 @@ $(document).ready(function () {
     })
   })
 
-  // Colour fading for the buttons. More may be added later.
+  // Colour fading for the main/primary buttons.
   $('.btn-main').each(function () {
     $(this).hover(function () {
       $(this).animate({
@@ -86,21 +87,22 @@ $(document).ready(function () {
     })
   })
 
+  // Colour fading for the tab buttons on the team and sponsor pages.
   $('.btn-tab').each(function () {
-    $(this).on('hidden.bs.tab', function (event) {
+    $(this).on('hidden.bs.tab', function (event) { // Animation on button when deselected.
       $(this).animate({
         color: '#149DCC',
         backgroundColor: 'rgba(0, 0, 0, 0)'
       }, 'fast')
     })
 
-    $(this).hover(function () {
+    $(this).hover(function () { // Animation on buttons which aren't selected.
       $(this).animate({
         color: '#FFFFFF',
         backgroundColor: '#149DCC'
       }, 'fast')
     }, function () {
-      if (!($(this).hasClass('active'))) {
+      if (!($(this).hasClass('active'))) { // Only animate the button if it isn't selected.
         $(this).animate({
           color: '#149DCC',
           backgroundColor: 'rgba(0, 0, 0, 0)'
@@ -109,6 +111,7 @@ $(document).ready(function () {
     })
   })
 
+  // Colour fading for the secondary buttons that aren't on a background.
   $('.btn-dark').each(function () {
     $(this).hover(function () {
       $(this).animate({
@@ -127,12 +130,15 @@ $(document).ready(function () {
   $('.scroll-below').click(function (event) {
     event.preventDefault() // Prevent default anchor click behavior.
 
-    $('html, body').animate({
-      // Subtracting the navbar's height cause otherwise the contents are covered by the navbar.
-      scrollTop: $(this).parents('.top-level').next().offset().top - $('nav').height()
-    }, 'slow')
+    var nextTopLevel = $(this).parents('.top-level').next()
+    var nextTopOffset = nextTopLevel.offset().top
+    var nextTopMargin = (nextTopLevel.outerHeight(true) - nextTopLevel.outerHeight()) / 2
+    var navbarHeight = $('body > nav:first').outerHeight(true)
 
-    $()
+    // Subtracting the navbar's height because otherwise the contents are covered by the navbar.
+    $('html, body').animate({
+      scrollTop: nextTopOffset - nextTopMargin - navbarHeight
+    }, 'slow')
 
     return false
   })
