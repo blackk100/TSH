@@ -32,12 +32,14 @@ footer {
 	max-width: 18rem;
 	width: 18rem;
 	background-image: linear-gradient(#FFFFFF, #E8E8E8);
+	object-fit: contain;
+	object-position: center;
 }
 
 .card-img-top {
 	max-width: 18rem;
 	width: 18rem;
-	object-fit: cover;
+	object-fit: contain;
 	object-position: center;
 }
 
