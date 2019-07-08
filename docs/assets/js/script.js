@@ -64,6 +64,15 @@ $(document).ready(function () {
     })
   })
 
+  $('.social-links > a > span').each(function () {
+    $(this).find('i:first').fadeTo(0, 0.5)
+    $(this).hover(function () {
+      $(this).find('i:first').fadeTo('fast', 1)
+    }, function () {
+      $(this).find('i:first').fadeTo('fast', 0.5)
+    })
+  })
+
   // Colour fading for the buttons. More may be added later.
   $('.btn-main').each(function () {
     $(this).hover(function () {

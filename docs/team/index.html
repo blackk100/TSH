@@ -68,482 +68,393 @@
 				</div>
 			</div>
 		</nav>
-		<!-- Jumbotron -->
-		<section class="cid-qT8jorgEO8 mbr-fullscreen mbr-parallax-background" id="header2-t">
-			<div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(67, 70, 75);"></div>
-			<div class="container align-center">
-				<div class="row justify-content-md-center">
-					<div class="mbr-white col-md-10">
-						<h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">Our (not so) Awesome Team!</h1>
+		<!-- Separate div for background gradient -->
+		<div class="page-gradient">
+			<!-- Jumbotron -->
+			<div id="team-jumbotron" class="jumbotron jumbotron-fluid d-flex flex-column align-items-end vh-100 my-auto jarallax">
+				<h1 class="display-4 mx-auto mt-auto text-center">Our (not so) Awesome Team!</h1>
+				<div class="mx-auto mt-auto fadey-button">
+					<a class="fa-stack fa-2x scroll-below" href="">
+						<i class="fas fa-circle fa-stack-2x" aria-hidden="true"></i>
+						<i class="fas fa-arrow-down fa-stack-1x" title="Scroll below"></i>
+					</a>
+				</div>
+			</div>
+			<!-- Team members -->
+			<div id="team-members" class="container-fluid d-flex flex-column align-items-center my-3">
+				<ul id="team-tab" class="nav justify-content-center" role="tablist">
+					<li class="nav-item mx-3 my-3">
+						<a id="team-tab-administration" class="nav-item btn btn-tab active" data-toggle="tab" href="#team-content-administration" role="tab" aria-controls="team-content-administration" aria-selected="true">Administration</a>
+					</li>
+					<li class="nav-item mx-3 my-3">
+						<a id="team-tab-pr" class="nav-item btn btn-tab" data-toggle="tab" href="#team-content-pr" role="tab" aria-controls="team-content-pr" aria-selected="false">PR</a>
+					</li>
+					<li class="nav-item mx-3 my-3">
+						<a id="team-tab-event" class="nav-item btn btn-tab" data-toggle="tab" href="#team-content-event" role="tab" aria-controls="team-content-event" aria-selected="false">Event Management</a>
+					</li>
+					<li class="nav-item mx-3 my-3">
+						<a id="team-tab-volunteer" class="nav-item btn btn-tab" data-toggle="tab" href="#team-content-volunteer" role="tab" aria-controls="team-content-volunteer" aria-selected="false">Volunteer Management</a>
+					</li>
+					<li class="nav-item mx-3 my-3">
+						<a id="team-tab-recruitment" class="nav-item btn btn-tab" data-toggle="tab" href="#team-content-recruitment" role="tab" aria-controls="team-content-recruitment" aria-selected="false">Recruitment</a>
+					</li>
+					<li class="nav-item mx-3 my-3">
+						<a id="team-tab-content" class="nav-item btn btn-tab" data-toggle="tab" href="#team-content-content" role="tab" aria-controls="team-content-content" aria-selected="false">Content Developers</a>
+					</li>
+					<li class="nav-item mx-3 my-3">
+						<a id="team-tab-arts" class="nav-item btn btn-tab" data-toggle="tab" href="#team-content-arts" role="tab" aria-controls="team-content-arts" aria-selected="false">Arts & Media</a>
+					</li>
+					<li class="nav-item mx-3 my-3">
+						<a id="team-tab-technical" class="nav-item btn btn-tab" data-toggle="tab" href="#team-content-technical" role="tab" aria-controls="#team-content-technical" aria-selected="false">Technical Team</a>
+					</li>
+				</ul>
+				<div id="team-tabs-content" class="container-fluid tab-content text-center">
+					<div id="team-content-administration" class="tab-pane fade show active" role="tabpanel" aria-labelledby="team-tab-administration">
+						<div class="container-fluid row my-4">
+							<div class="card mx-auto">
+								<img class="card-img-top" src="../assets/img/team/president.jpg" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Yashmitha L. Sadasivuni</h5>
+									<h6 class="card-subtitle mb-2 text-muted">President</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.instagram.com/yashmitha14/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-instagram fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid row my-4">
+							<div class="card ml-auto">
+								<img class="card-img-top" src="../assets/img/team/baseline-person-24px.svg" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Anusha R. Kallapur</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Chief Treasurer</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.anushakallapur.com/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-edge fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="card mx-auto">
+								<img class="card-img-top" src="../assets/img/team/internal.jpg" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Ishika Gupta</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Internal Coordinator</h6>
+								</div>
+								<div class="container-fluid social-links my-3">&nbsp;</div>
+							</div>
+							<div class="card mr-auto">
+								<img class="card-img-top" src="../assets/img/team/baseline-person-24px.svg" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Vidhi Gupta</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Logistics</h6>
+								</div>
+								<div class="container-fluid social-links my-3">&nbsp;</div>
+							</div>
+						</div>
+						<div class="container-fluid row my-4">&nbsp;</div>
+					</div>
+					<div id="team-content-pr" class="tab-pane fade" role="tabpanel" aria-labelledby="team-tab-pr">
+						<div class="container-fluid row my-4">
+							<div class="card ml-auto">
+								<img class="card-img-top" src="../assets/img/team/pr1.jpg" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Dhatri Devireddy</h5>
+									<h6 class="card-subtitle mb-2 text-muted">PR Manager</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.instagram.com/dhatri_d13/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-instagram fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="card mx-auto">
+								<img class="card-img-top" src="../assets/img/team/pr2-volunteer1.jpg" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Janvi Matta</h5>
+									<h6 class="card-subtitle mb-2 text-muted">PR Manager</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.instagram.com/janviii_16/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-instagram fa-stack-1x"></i>
+										</span>
+									</a>
+									<a href="https://www.snapchat.com/add/jmatta160401" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-snapchat fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="card mr-auto">
+								<img src="../assets/img/team/baseline-person-24px.svg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Vidhi Gupta</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Marketing</h6>
+								</div>
+								<div class="container-fluid social-links my-3">&nbsp;</div>
+							</div>
+						</div>
+						<div class="container-fluid row">&nbsp;</div>
+					</div>
+					<div id="team-content-event" class="tab-pane fade" role="tabpanel" aria-labelledby="team-tab-event">
+						<div class="container-fluid row my-4">
+							<div class="card mx-auto">
+								<img src="../assets/img/team/event1-volunteer4.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Saanya Gupta</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Event Management</h6>
+								</div>
+								<div class="container-fluid social-links my-3">&nbsp;</div>
+							</div>
+						</div>
+						<div class="container-fluid row">&nbsp;</div>
+					</div>
+					<div id="team-content-volunteer" class="tab-pane fade" role="tabpanel" aria-labelledby="team-tab-volunteer">
+						<div class="container-fluid row my-4">
+							<div class="card mx-auto">
+								<img src="../assets/img/team/pr2-volunteer1.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Janvi Gupta</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Volunteer Management - Head</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.instagram.com/janviii_16/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-instagram fa-stack-1x"></i>
+										</span>
+									</a>
+									<a href="https://www.snapchat.com/add/jmatta160401" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-snapchat fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid row my-4">
+							<div class="card ml-auto">
+								<img src="../assets/img/team/baseline-person-24px.svg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Rhea Agarwal</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Event Management</h6>
+								</div>
+								<div class="container-fluid social-links my-3">&nbsp;</div>
+							</div>
+							<div class="card mx-auto">
+								<img src="../assets/img/team/volunteer3.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Spoorthi Yadagiri</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Event Management</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://en.wikipedia.org/wiki/Spoorthi_Yadagiri" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-wikipedia-w fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="card mr-auto">
+								<img src="../assets/img/team/event1-volunteer4.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Saanya Gupta</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Event Management</h6>
+								</div>
+								<div class="container-fluid social-links my-3">&nbsp;</div>
+							</div>
+						</div>
+						<div class="container-fluid row">&nbsp;</div>
+					</div>
+					<div id="team-content-recruitment" class="tab-pane fade" role="tabpanel" aria-labelledby="team-tab-recruitment">
+						<div class="container-fluid row my-4">
+							<div class="card mx-auto">
+								<img src="../assets/img/team/recruit1-content3.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Mahima Sriram</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Recruitment - Head</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.instagram.com/mahimasriram/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-instagram fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid row my-4">
+							<div class="card mx-auto">
+								<img src="../assets/img/team/baseline-person-24px.svg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Abijith Pradeep</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Recruitment</h6>
+								</div>
+								<div class="container-fluid social-links my-3">&nbsp;</div>
+							</div>
+						</div>
+						<div class="container-fluid row">&nbsp;</div>
+					</div>
+					<div id="team-content-content" class="tab-pane fade" role="tabpanel" aria-labelledby="team-tab-content">
+						<div class="container-fluid row my-4">
+							<div class="card ml-auto">
+								<img src="../assets/img/team/content1.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Pratyusha Vellala</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Content Developer</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.instagram.com/ptushathereader/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-instagram fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="card mx-auto">
+								<img src="../assets/img/team/baseline-person-24px.svg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Ratnamegha Lingamsetty</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Content Developer</h6>
+								</div>
+								<div class="container-fluid social-links my-3">&nbsp;</div>
+							</div>
+							<div class="card mr-auto">
+								<img src="../assets/img/team/recruit1-content3.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Mahima Sriram</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Content Developer</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.instagram.com/mahimasriram/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-instagram fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid row">&nbsp;</div>
+					</div>
+					<div id="team-content-arts" class="tab-pane fade" role="tabpanel" aria-labelledby="team-tab-arts">
+						<div class="container-fluid row my-4">
+							<div class="card mx-auto">
+								<img src="../assets/img/team/arts1.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Yasaswini Potluri</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Arts & Media - Head</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.instagram.com/yasaswini_potluri/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-instagram fa-stack-1x"></i>
+										</span>
+									</a>
+									<a href="https://www.snapchat.com/add/ypotluri" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-snapchat fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid row my-4">
+							<div class="card ml-auto">
+								<img src="../assets/img/team/baseline-person-24px.svg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Poojitaa Reddy</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Arts & Media</h6>
+								</div>
+								<div class="container-fluid social-links my-3">&nbsp;</div>
+							</div>
+							<div class="mx-auto">&nbsp;</div>
+							<div class="card mr-auto">
+								<img src="../assets/img/team/baseline-person-24px.svg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Aayushi Gupta</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Arts & Media</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.instagram.com/cheeeeseee._.187/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-instagram fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid row">&nbsp;</div>
+					</div>
+					<div id="team-content-technical" class="tab-pane fade" role="tabpanel" aria-labelledby="team-tab-technical">
+						<div class="container-fluid row my-4">
+							<div class="card mx-auto">
+								<img src="../assets/img/team/tech1.jpg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Aryaman Srivastav</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Technical Team - Head</h6>
+								</div>
+								<div class="container-fluid social-links my-3">
+									<a href="https://www.facebook.com/blackk100/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-facebook fa-stack-1x"></i>
+										</span>
+									</a>
+									<a href="https://twitter.com/blackk1000" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-twitter fa-stack-1x"></i>
+										</span>
+									</a>
+									<a href="https://github.com/blackk100/" target="_blank">
+										<span class="fa-stack fa-2x">
+											<i class="fas fa-square fa-stack-2x"></i>
+											<i class="fab fa-github fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid row my-4">
+							<div class="card mx-auto">
+								<img src="../assets/img/team/baseline-person-24px.svg" class="card-img-top" alt="">
+								<div class="card-body">
+									<h5 class="card-title">Abijith Pradeep</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Technical Team</h6>
+								</div>
+								<div class="container-fluid social-links my-3">&nbsp;</div>
+							</div>
+						</div>
+						<div class="container-fluid row">&nbsp;</div>
 					</div>
 				</div>
 			</div>
-			<div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-				<a href="#next">
-					<i class="fas fa-arrow-down fa-3x"></i>
-				</a>
-			</div>
-		</section>
-		<!-- Team members -->
-		<section class="features16 cid-qTkAddXGDu" id="features16-1v">
-			<div class="container align-center">
-				<!-- <h2 class="pb-3 mbr-fonts-style mbr-section-title display-2">Title content here</h2> -->
-				<!-- Row 1 -->
-				<div class="row media-row">
-					<!-- Person 1 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/president.jpg" alt="president" title="Yashmitha L. Sadasivuni">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Yashmitha L. Sadasivuni</p>
-							</div>
-							<div class="item-role px-2">
-								<p>President</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-								<a href="https://www.instagram.com/yashmitha14/" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-instagram fa-stack-1x"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Person 1 -->
-				</div>
-				<!-- /Row 1 -->
-				<!-- Row 2 -->
-				<div class="row media-row">
-					<!-- Person 2 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/baseline-person-24px.svg" alt="treasurer" title="Anusha R. Kallapur">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Anusha R. Kallapur</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Chief Treasurer</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-								<a href="https://www.anushakallapur.com/" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-edge fa-stack-1x"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Person 2 -->
-					<!-- Person 3 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/internal.jpg" alt="internal" title="Ishika Gupta">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Ishika Gupta</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Internal Coordinator</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-							</div>
-						</div>
-					</div>
-					<!-- /Person 3 -->
-				</div>
-				<!-- /Row 2 -->
-				<!-- Row 3 -->
-				<div class="row media-row">
-					<!-- Person 4 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/pr1.jpg" alt="pr1" title="Dhatri Devireddy">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Dhatri Devireddy</p>
-							</div>
-							<div class="item-role px-2">
-								<p>PR Manager</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-								<a href="https://www.instagram.com/dhatri_d13/" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-instagram fa-stack-1x"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Person 4 -->
-					<!-- Person 5 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/pr2-volunteer1.jpg" alt="pr2-volunteer1" title="Janvi Matta">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Janvi Matta</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Volunteer Management - Head<br />PR Manager</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-								<a href="https://www.instagram.com/janviii_16/" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-instagram fa-stack-1x"></i>
-									</span>
-								</a>
-								<a href="https://www.snapchat.com/add/jmatta160401" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-snapchat fa-stack-1x"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Person 5 -->
-					<!-- Person 6 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/baseline-person-24px.svg" alt="marketing1-logistics1" title="Vidhi Gupta">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Vidhi Gupta</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Marketing<br />Logistics</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-							</div>
-						</div>
-					</div>
-					<!-- /Person 6 -->
-				</div>
-				<!-- /Row 3 -->
-				<!-- Row 4 -->
-				<div class="row media-row">
-					<!-- Person 7 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/baseline-person-24px.svg" alt="volunteer2" title="Rhea Agarwal">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Rhea Agarwal</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Volunteer Management</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-							</div>
-						</div>
-					</div>
-					<!-- /Person 7 -->
-					<!-- Person 8 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/volunteer3.jpg" alt="volunteer3" title="Spoorthi Yadagiri">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Spoorthi Yadagiri</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Volunteer Management</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-								<a href="https://en.wikipedia.org/wiki/Spoorthi_Yadagiri" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-wikipedia-w fa-stack-1x"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Person 8 -->
-					<!-- Person 9 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/volunteer4-event1.jpg" alt="volunteer4-event1" title="Saanya Gupta">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Saanya Gupta</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Volunteer Management<br />Event Management</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-							</div>
-						</div>
-					</div>
-					<!-- /Person 9 -->
-				</div>
-				<!-- /Row 4 -->
-				<!-- Row 5 -->
-				<div class="row media-row">
-					<!-- Person 10 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/recruit1-content3.jpg" alt="recruit1-content3" title="Mahima Sriram">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Mahima Sriram</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Recruitment - Head<br />Content Developer</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-								<a href="https://www.instagram.com/mahimasriram/" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-instagram fa-stack-1x"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Person 10 -->
-					<!-- Person 11 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/baseline-person-24px.svg" alt="recruit2-tech2" title="Abijith Pradeep">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Abijith Pradeep</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Recruitment<br />Technical Team</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-							</div>
-						</div>
-					</div>
-					<!-- /Person 11 -->
-					<!-- Person 12 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/tech1.jpg" alt="tech1" title="Hackerbear. Also looking for freelance work.">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Aryaman Srivastav</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Technical Team - Head</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-								<a href="https://www.facebook.com/blackk100" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-facebook fa-stack-1x"></i>
-									</span>
-								</a>
-								<a href="https://twitter.com/blackk1000" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-twitter fa-stack-1x"></i>
-									</span>
-								</a>
-								<a href="https://github.com/blackk100" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-github fa-stack-1x"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Person 12 -->
-				</div>
-				<!-- /Row 5 -->
-				<!-- Row 6 -->
-				<div class="row media-row">
-					<!-- Person 13 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/content1.jpg" alt="content1" title="Pratyusha Vellala">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Pratyusha Vellala</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Content Developer</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-								<a href="https://www.instagram.com/ptushathereader/" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-instagram fa-stack-1x"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Person 15 -->
-					<!-- Person 16 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/baseline-person-24px.svg" alt="content2" title="Ratnamegha Lingamsetty">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Ratnamegha Lingamsetty</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Content Developer</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-							</div>
-						</div>
-					</div>
-					<!-- /Person 13 -->
-				</div>
-				<!-- /Row 6 -->
-				<!-- Row 7 -->
-				<div class="row media-row">
-					<!-- Person 14 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/arts1.jpg" alt="arts1" title="Yasaswini Potluri">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Yasaswini Potluri</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Arts & Media - Head</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-								<a href="https://www.instagram.com/yasaswini_potluri/" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-instagram fa-stack-1x"></i>
-									</span>
-								</a>
-								<a href="https://www.snapchat.com/add/ypotluri" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-snapchat fa-stack-1x"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Person 14 -->
-					<!-- Person 15 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/baseline-person-24px.svg" alt="arts2" title="Poojitaa Reddy">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Poojitaa Reddy</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Arts & Media</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-							</div>
-						</div>
-					</div>
-					<!-- /Person 15 -->
-					<!-- Person 16 -->
-					<div class="team-item col-lg-3 col-md-6">
-						<!-- Person Image -->
-						<div class="item-image">
-							<img src="../assets/img/team/baseline-person-24px.svg" alt="arts3" title="Aayushi Gupta">
-						</div>
-						<!-- Details -->
-						<div class="item-caption py-3">
-							<div class="item-name px-2">
-								<p class="mbr-fonts-style">Aayushi Gupta</p>
-							</div>
-							<div class="item-role px-2">
-								<p>Arts & Media</p>
-							</div>
-							<!-- Social Links -->
-							<div class="item-social pt-2">
-								<a href="https://www.instagram.com/cheeeeseee._.187/" target="_blank">
-									<span class="fa-stack fa-2x fa-border social-link">
-										<i class="fas fa-square fa-stack-2x" style="color: #cccccc;"></i>
-										<i class="fab fa-instagram fa-stack-1x"></i>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Person 16 -->
-				</div>
-				<!-- /Row 7 -->
-			</div>
-		</section>
+		</div>
 		<!-- Footer -->
-		<footer class="container text-center my-3">
+		<footer class="container my-3">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-sm-3">
 					<div class="row justify-content-center fadey-button">

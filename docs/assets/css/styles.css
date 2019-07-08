@@ -26,6 +26,19 @@ body {
 	}
 }
 
+.card {
+	max-width: 18rem;
+	width: 18rem;
+	background-image: linear-gradient(#FFFFFF, #E8E8E8);
+}
+
+.card-img-top {
+	max-width: 18rem;
+	width: 18rem;
+	object-fit: cover;
+	object-position: center;
+}
+
 /* Jarallax stuff */
 [id*="jarallax-container-"] > div {
 	background-color: rgba(0, 0, 0, 0.25);
@@ -88,6 +101,10 @@ body {
 	object-position: center;
 }
 
+.social-links > a {
+	text-decoration: none;
+}
+
 #scroll-to-top {
 	position: fixed;
 	bottom: 10vh;
@@ -118,6 +135,10 @@ body {
 	background-image: linear-gradient(#149DCC, #FFFFFF);
 }
 
+#team-jumbotron {
+	background-image: url("../img/team.jpg");
+}
+
 #volunteer-jumbotron {
 	background-image: url("../img/volunteer.jpg");
 }
@@ -144,6 +165,10 @@ i.fa-circle {
 
 .fa-circle {
 	color: rgba(0, 0, 0, 0.75);
+}
+
+.fa-square {
+	color: #CCCCCC;
 }
 
 .fa-arrow-down, .fa-arrow-up {
@@ -186,7 +211,7 @@ i.fa-circle {
 	color: #FFFC00;
 }
 
-.fa-wikipedia {
+.fa-wikipedia-w {
 	color: #000000;
 }
 
