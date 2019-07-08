@@ -7,7 +7,7 @@ body {
 }
 
 #message {
-	background: white;
+	background: #FFFFFF;
 	max-width: 360px;
 	margin: 100px auto 16px;
 	padding: 32px 24px 16px;
@@ -15,14 +15,14 @@ body {
 }
 
 #message h3 {
-	color: #888;
+	color: #888888;
 	font-weight: normal;
 	font-size: 16px;
 	margin: 16px 0 12px;
 }
 
 #message h2 {
-	color: #ffa100;
+	color: #FFA100;
 	font-weight: bold;
 	font-size: 16px;
 	margin: 0 0 8px;
@@ -44,10 +44,10 @@ body {
 #message a {
 	display: block;
 	text-align: center;
-	background: #039be5;
+	background: #039BE5;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: white;
+	color: #FFFFFF;
 	padding: 16px;
 	border-radius: 4px;
 }
@@ -65,10 +65,11 @@ body {
 @media (max-width: 600px) {
 	body, #message {
 		margin-top: 0;
-		background: white;
+		background: #FFFFFF;
 		box-shadow: none;
 	}
+
 	body {
-		border-top: 16px solid #ffa100;
+		border-top: 16px solid #FFA100;
 	}
 }
